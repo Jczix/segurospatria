@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguros Patria - Registro de Lotería</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="form-container">
+        <header>
+            <h1>Lotería Seguros Patria</h1>
+            <p>Ingresa tu nombre para registrarte en nuestro sorteo exclusivo!</p>
+        </header>
+        <form id="lottery-form">
+            <label for="name">Nombre Completo:</label>
+            <input type="text" id="name" name="name" required>
+            <button type="submit">Registrarse Ahora!</button>
+        </form>
+        <footer>
+            <p>Desarrollado por Seguros Patria</p>
+        </footer>
+    </div>
+
+    <div id="video-container" style="display: none;">
+        <video id="scary-video" preload="auto" muted playsinline>
+            <source src="assets/samplevideo.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <button id="exit-video">Salir</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
